@@ -11,3 +11,7 @@ html {
     padding: 1em;
     margin: 1em;
 }
+
+ul li {
+    list-style-type: none;
+}

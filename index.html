@@ -6,7 +6,7 @@
         <title>Fortune Cookie Generator</title>
         <meta name="description" content="This page generates fortune cookie sayings.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        
         <link rel="stylesheet" href="main.css">
         <script type="text/javascript" src="fortune-cookie-generator.js"></script>
     </head>
@@ -17,9 +17,10 @@
             <p id="fortune-cookie-text">Click the button to generate a saying.</p>
         </div>
         <!-- TODO: Make this button execute the `generateFortuneCookie()` function. -->
-        <button class="generate-button">
+        <button onclick="generateFortuneCookie()" class="generate-button">
             Make My Fortune!
         </button>
+        <p>Number of Generated Fortunes: <span id="numclicks">0</span></p>
         <hr>
         <h2>Previous Fortunes</h2>
         <ul id="previous-fortunes-container">
